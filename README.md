@@ -5,7 +5,7 @@
 
 Rich presence but for flight simulators. It displays the route you're flying, the plane, what network and your current altitude and speed. It connects to your sim using FSUIPC, and feeds that data into Discord. Give it a try!
 
-It supports FSX and P3D, as well as X-Plane (probably).
+Supports FSX and P3D, as well as X-Plane (probably - it theoretically should work, but it's not been tested).
 
 Built with Python 3.7 using PyPresence, PyUIPC and PyQt5.
 
