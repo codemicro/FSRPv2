@@ -3,6 +3,8 @@
 [![Mozilla Public Licence v2](https://img.shields.io/badge/Licence-MPL--2.0-yellow.svg?style=flat-square)](https://www.mozilla.org/en-US/MPL/)
 [![Written for Python 3.7](https://img.shields.io/badge/Written%20in-Python--3.7-green.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 
+![Demo](https://raw.githubusercontent.com/codemicro/FSRPv2/master/doc/2019-10-16_19-39-28.gif "In action")
+
 Rich presence but for flight simulators. It displays the route you're flying, the plane, what network and your current altitude and speed. It connects to your sim using FSUIPC, and feeds that data into Discord. Give it a try!
 
 Supports FSX and P3D, as well as X-Plane (probably - it theoretically should work, but it's not been tested).
