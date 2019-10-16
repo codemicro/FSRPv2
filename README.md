@@ -9,7 +9,7 @@ Rich presence but for flight simulators. It displays the route you're flying, th
 
 Supports FSX and P3D, as well as X-Plane (probably - it theoretically should work, but it's not been tested).
 
-Built with Python 3.7 using PyPresence, PyUIPC and PyQt5.
+Built with Python 3.7 using PyPresence, PyUIPC and PyQt5. This is experimental - use at your own risk.
 
 ## Installation
 
