@@ -13,7 +13,7 @@ Built with Python 3.7 using PyPresence, PyUIPC and PyQt5. This is experimental -
 
 ## Installation
 
-To run yourself, you will need to download the FSUIPC SDK [from here](https://www.schiratti.com/dowson.html) and install it into the 32-bit version of Python 3.7 (PyUIPC only works with 32-bit versions of Python). In addition to this, you should install [PyPresence](https://pypi.org/project/pypresence/) and [PyQt5](https://pypi.org/project/PyQt5/) from PyPI.
+To run yourself, you will need to download the FSUIPC SDK [from here](https://www.schiratti.com/dowson.html) and install the PyUIPC part into the 32-bit version of Python 3.7 (PyUIPC only works with 32-bit versions of Python). In addition to this, you should install [PyPresence](https://pypi.org/project/pypresence/) and [PyQt5](https://pypi.org/project/PyQt5/) from PyPI.
 
 Once the requirements are installed, make sure your sim has FSUIPC installed into it and you should be able  run "app.py".
 
