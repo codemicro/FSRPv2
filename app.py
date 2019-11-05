@@ -12,7 +12,7 @@ isConnectedToSim = False
 
 config = configparser.ConfigParser()
 config.read("settings.ini")
-networks = config["DEFAULT"]["networks"].split(",")
+networks = config["DEFAULT"]["networks"].split(" #")[0].split(",")
 defaultSimulator = config["DEFAULT"]["defaultSim"].split(" #")[0].lower()
 
 sys._excepthook = sys.excepthook
