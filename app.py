@@ -15,14 +15,11 @@ config.read("settings.ini")
 networks = config["DEFAULT"]["networks"].split(" #")[0].split(",")
 defaultSimulator = config["DEFAULT"]["defaultSim"].split(" #")[0].lower()
 
+# Exception hook for catching all errors from PyQt
 sys._excepthook = sys.excepthook
-
-
 def exception_hook(exctype, value, traceback):
     sys._excepthook(exctype, value, traceback)
     sys.exit(1)
-
-
 sys.excepthook = exception_hook
 
 clientIds = {
